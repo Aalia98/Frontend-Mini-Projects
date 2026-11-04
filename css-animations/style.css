@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    bottom: 0;
+    background-color: black;
+    left: 0;
+}
+
+h1:hover::after {
+    animation-name: lineanime;
+    animation-duration: 2s;
+}
+
+@keyframes lineanime {
+    0% {
+        width: 0;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+/* #box {
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, .93, .47, .43);
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes anime {
+    0% {
+        left: 0;
+        background-color: lightseagreen;
+        top: 0;
+        rotate: 0deg;
+    }
+    50% {
+        left: 75%;
+        background-color: lightgreen;
+        top: 0;
+        rotate: 360deg;
+    }
+    100% {
+        left: 75%;
+        background-color: salmon;
+        top: 50%;
+        rotate: 360deg;
+    }
+} */
