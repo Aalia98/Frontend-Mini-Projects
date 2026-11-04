@@ -1,26 +1,27 @@
 # Frontend Mini Projects
 
-Small HTML, CSS and JavaScript practice projects. Most are Frontend Mentor challenges, built from the challenge's design files, plus a few CSS experiments. Each project lives in its own folder and runs by opening its `index.html` in a browser. No install or build step is needed.
+Small HTML, CSS and JavaScript practice projects. Most are Frontend Mentor challenges, built from the challenge's design files, plus a CSS hover effect experiment. Each project lives in its own folder. There is no install or build step: open the file listed below in a browser.
 
-| Folder | What it is | Tech |
-| --- | --- | --- |
-| `interactive-rating` | Rating card with a number selection and a thank-you state after submit (Frontend Mentor challenge) | HTML, CSS, JavaScript |
-| `product-preview-card` | Responsive product card (Frontend Mentor challenge) | HTML, CSS |
-| `results-summary` | Results summary card; the repo also includes a `data.json` file of sample scores (Frontend Mentor challenge) | HTML, CSS, JavaScript |
-| `qr-code-component` | QR code card (Frontend Mentor challenge) | HTML, CSS |
-| `css-animations` | CSS animation and frame hover effect experiments | HTML, CSS |
+| Folder | What it is | Tech | Open this file |
+| --- | --- | --- | --- |
+| `interactive-rating` | Rating card with number buttons and a submit page (Frontend Mentor challenge) | HTML, CSS, JavaScript | `interactive-rating/index.html` |
+| `product-preview-card` | Responsive product card (Frontend Mentor challenge) | HTML, CSS | `product-preview-card/index.html` |
+| `results-summary` | Results summary card; scores come from a `data.json` file of sample results (Frontend Mentor challenge) | HTML, CSS, JavaScript | `results-summary/index.html` |
+| `qr-code-component` | QR code card (Frontend Mentor challenge) | HTML, CSS | `qr-code-component/index.html` |
+| `css-animations` | Image frame hover effect | HTML, CSS | `css-animations/FRAME-HOVER-EFFECT/index.html` |
+
+The `index.html` at the top of `css-animations` is only a plain "Hello!" test page. The demo is inside `FRAME-HOVER-EFFECT`.
 
 ## Notes
 
 - The Frontend Mentor challenge designs and assets belong to Frontend Mentor. The code is my own solution.
-- The original standalone repositories are kept until these folders are checked.
-- Larger projects stay in their own repositories: time tracking dashboard (React), Todo, Kanban, MoviesHub and Portfolio.
+- Larger projects are in their own repositories: Todo, Kanban Task Management, MoviesHub and Portfolio.
 
 ## Run a project
 
 ```bash
-git clone https://github.com/Aalia98/frontend-mini-projects.git
-cd frontend-mini-projects/interactive-rating
+git clone https://github.com/Aalia98/Frontend-Mini-Projects.git
+cd Frontend-Mini-Projects
 ```
 
-Then open `index.html` in your browser.
+Then open the file from the table above in your browser.
