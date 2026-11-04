@@ -9,7 +9,7 @@
 .container {
     display: flex;
     margin: 20vh auto;
-    width: 40vw;
+    width: max(40vw, 560px);
     height: 56vh;
     border-radius: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -130,7 +130,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .container {
       display: flex;
       flex-direction: column;
