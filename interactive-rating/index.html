@@ -46,7 +46,7 @@
     })()
 
     function submitRating() {
-      location.href = `http://127.0.0.1:5500/submit.html?rate=${rate}`;
+      location.href = `submit.html?rate=${rate}`;
     }
 
     function selectRating(e) {
@@ -54,7 +54,9 @@
       document.getElementById("submit").disabled = false;
 
       if(selectedRating!=-1) {
-        document.getElementById(`rate${selectedRating}`).style.backgroundColor = "RGBA(43, 71, 239, 0.1)"
+        const prev = document.getElementById(`rate${selectedRating}`);
+        prev.style.backgroundColor = "RGBA(43, 71, 239, 0.1)";
+        prev.style.color = "hsl(217, 12%, 63%)";
       }
 
       selectedRating = e

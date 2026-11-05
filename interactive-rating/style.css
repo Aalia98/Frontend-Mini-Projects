@@ -105,3 +105,15 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 420px) {
+    html {
+        font-size: 37%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    html {
+        font-size: 33%;
+    }
+}

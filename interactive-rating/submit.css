@@ -63,3 +63,15 @@ main {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 420px) {
+    html {
+        font-size: 37%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    html {
+        font-size: 33%;
+    }
+}

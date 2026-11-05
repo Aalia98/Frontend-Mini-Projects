@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="submit.css" />
     <title>Interactive rating component</title>
   </head>
@@ -117,8 +118,8 @@
 
     <script>
       const urlParams = new URLSearchParams(window.location.search);
-      const rate = urlParams.get("rate");
-      document.getElementById("rate").innerHTML = rate;
+      const rate = parseInt(urlParams.get("rate"), 10);
+      document.getElementById("rate").textContent = rate >= 1 && rate <= 5 ? rate : "-";
     </script>
   </body>
 </html>
